@@ -2,6 +2,10 @@
 
 ## Overview
 
+This is a replication of the paper *Enumerating k-Vertex Connected Components in Large Graphs*
+
+## Implementation details
+
 For large-scale graph data, Python or C++ can be considered for processing. Since Python has high integration, it is not convenient to modify the underlying logic. Additionally, in terms of speed, Python is much slower than C++. So I use C++ to implement it.
 
 After deciding to use C++, I first attempted to write some code, but soon encountered a major problem: **insufficient stack space**. Due to the large size of the data and the involvement of subgraph decomposition and recursion, it seems impossible to allocate the graph in our memory.
