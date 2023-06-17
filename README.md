@@ -10,13 +10,13 @@ Cohesive subgraph detection is an important graph problem that is widely applied
 
 ## Algorithm Outline
 
-![1](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\1.jpg)
+![1](\img\1.jpg)
 
-![2](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\2.jpg)
+![2](\img\2.jpg)
 
-![3](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\3.jpg)
+![3](\img\3.jpg)
 
-![4](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\4.jpg)
+![4](\img\4.jpg)
 
 ## Implementation details
 
