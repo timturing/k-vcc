@@ -8,6 +8,16 @@ This is a replication of the paper ***Enumerating k-Vertex Connected Components 
 
 Cohesive subgraph detection is an important graph problem that is widely applied in many application domains, such as social community detection, network visualization, and network topology analysis. Most of existing cohesive subgraph metrics can guarantee good structural properties but may cause the free-rider effect. Here, by free-rider effect, we mean that some irrelevant subgraphs are combined as one subgraph if they only share a small number of vertices and edges. In this paper, we study k-vertex connected component (k-VCC) which can effectively eliminate the free-rider effect but less studied in the literature. A k-VCC is a connected subgraph in which the removal of any k − 1 vertices will not disconnect the subgraph. In addition to eliminating the free-rider effect,k-VCC also has other advantages such as bounded diameter, high cohesiveness, bounded graph overlapping, and bounded subgraph number. We propose a polynomial time algorithm to enumerate allk-VCCs of a graph by recursively partitioning the graph into overlapped subgraphs. We find that the key to improving the algorithm is reducing the number of local connectivity testings. Therefore, we propose two effective optimization strategies, namely neighbor sweep and group sweep, to largely reduce the number of local connectivity testings. We conduct extensive performance studies using seven large real datasets to demonstrate the effectiveness of this model as well as the efficiency of our proposed algorithms.
 
+## Algorithm Outline
+
+![1](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\1.jpg)
+
+![2](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\2.jpg)
+
+![3](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\3.jpg)
+
+![4](D:\A学习\数据结构与算法II\大作业\大作业1\project\img\4.jpg)
+
 ## Implementation details
 
 For large-scale graph data, Python or C++ can be considered for processing. Since Python has high integration, it is not convenient to modify the underlying logic. Additionally, in terms of speed, Python is much slower than C++. So I use C++ to implement it.
